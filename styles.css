@@ -1,0 +1,77 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header */
+.site-header {
+    background-color: #0077b6 ;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.3;
+    }
+
+.tagline {
+    font-size: 1.2rem;
+    background-color: #510d0d;
+    margin: 5px auto 0;
+    border: #333 2px solid;
+    padding: 2px;
+    width: 25%;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+
+/* Navigation */
+.site-nav {
+    background-color: #8a0288ae;
+    padding: 10px;
+    text-align: center;
+}
+
+.site-nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    }
+
+.site-nav a:hover {
+    background-color: #b6004c;
+    border-radius: 4px;
+}
+
+/* Main Content */
+.content {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+/* Card Sections */
+.card {
+    background-color: white;
+    padding: 15px;
+    border: 2px solid #bf3131;
+    border-radius: 8px;
+    width: 50%;
+    box-sizing: border-box; 
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #579128;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin-top: 20px;
+}
